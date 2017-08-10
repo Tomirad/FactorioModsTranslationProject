@@ -21,3 +21,7 @@ Ex. 90% (90 lines from 100 text lines )
 
 # For Gammers
 Download this localisation and next copy only internal folders to /mods/ folder your game.
+
+# Others
+Project is for game: <b>Factorio</b> http://factorio.com
+You will find mods to us translations here: https://mods.factorio.com
