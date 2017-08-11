@@ -5,8 +5,10 @@ The rule is simple:
 We create a directory with the mod name (exactly as the creator uses it) and then place the ex. `pl` directory and then the translation file there.
 
 If create first folder it:
-<b>NameProject_version/locale/LngCode/config.cfg</b>
-Ex. Ruins/locale/pl/config.cfg
+<b>{NameProject}_{version}/locale/{LngCode}/config.cfg</b>
+Ex. Ruins_0.1.3/locale/pl/config.cfg
+
+Sometimes author the modification use other name localisation file ex. string.cfg or {LngCode}.cfg
 
 NameProject - is name the mod with info.json
 Version - is version with info.json, must be format _0.0.0 or _0.0
