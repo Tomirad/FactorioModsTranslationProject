@@ -7,24 +7,29 @@ The rules are simple:
 - place translation files inside that directory
 
 Template:
-<b>{NameProject}_{version}/locale/{LngCode}/config.cfg</b>
+
+<b>{ProjectName}_{version}/locale/{LangCode}/config.cfg</b>
+
 Example:
+
 Ruins_0.1.3/locale/pl/config.cfg
 
-Sometimes author of the modification uses other names for localisation files ex. string.cfg or {LngCode}.cfg
+Sometimes author of the modification uses other names for localisation files ex. string.cfg or {LangCode}.cfg
 
-NameProject - is name the mod with info.json
-Version - is version with info.json, must be format _0.0.0 or _0.0
-LngCode - language code your country e.g. polish - pl, english - en, russian - ru
+**ProjectName** - name the mod from info.json 
 
-And then we translate the mod from English into our own language.
+**Version** - version from info.json, must be in format _0.0.0 or _0.0 
+
+**LangCode** - language code of your country e.g. polish - pl, english - en, russian - ru 
+
+And then translate the mod from English into your own language.
 
 Important:
 If translation is incomplete, please add how many percent is already translated.
 E.g. 90% (90 lines from 100 text lines )
 
 
-# For Gamers
+# For Players
 Download this localisation files and then copy only internal folders to /mods/ folder inside your game directory.
 
 # Others
