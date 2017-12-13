@@ -7,20 +7,16 @@ The rules are simple:
 - place translation files inside that directory
 
 Template:
-
-<b>{ProjectName}_{version}/locale/{LangCode}/config.cfg</b>
+>**{ProjectName}_{version}/locale/{LangCode}/config.cfg**
 
 Example:
-
-Ruins_0.1.3/locale/pl/config.cfg
+>**Ruins_0.1.3/locale/pl/config.cfg**
 
 Sometimes author of the modification uses other names for localisation files ex. string.cfg or {LangCode}.cfg
 
-**ProjectName** - name the mod from info.json 
-
-**Version** - version from info.json, must be in format _0.0.0 or _0.0 
-
-**LangCode** - language code of your country e.g. polish - pl, english - en, russian - ru 
+* **ProjectName** - name the mod from info.json 
+* **Version** - version from info.json, must be in format _0.0.0 or _0.0 
+* **LangCode** - language code of your country e.g. polish - pl, english - en, russian - ru 
 
 And then translate the mod from English into your own language.
 
