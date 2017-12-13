@@ -1,29 +1,33 @@
-# Factorio Translation Mods
+# Factorio Mods Translations
 Translations are available to modders, mainly for those who don't use the GitHub platform to distribute them.
 
-The rule is simple:
-We create a directory with the mod name (exactly as the creator uses it) and then place the ex. `pl` directory and then the translation file there.
+The rules are simple:
+- create a directory with the mod name (exactly as the creator uses it) and mod version
+- inside create directory with locale name (e.g. `pl` for polish translation) 
+- place translation files inside that directory
 
-If create first folder it:
-<b>{NameProject}_{version}/locale/{LngCode}/config.cfg</b>
-Ex. Ruins_0.1.3/locale/pl/config.cfg
+Template:
+>**{ProjectName}_{version}/locale/{LangCode}/config.cfg**
 
-Sometimes author the modification use other name localisation file ex. string.cfg or {LngCode}.cfg
+Example:
+>**Ruins_0.1.3/locale/pl/config.cfg**
 
-NameProject - is name the mod with info.json
-Version - is version with info.json, must be format _0.0.0 or _0.0
-LngCode - language code your country ex. polish - pl, english - en, russian - ru
+Sometimes author of the modification uses other names for localisation files ex. string.cfg or {LangCode}.cfg
 
-And then we translate the mod from English into our own language.
+* **ProjectName** - name the mod from info.json 
+* **Version** - version from info.json, must be in format _0.0.0 or _0.0 
+* **LangCode** - language code of your country e.g. polish - pl, english - en, russian - ru 
+
+And then translate the mod from English into your own language.
 
 Important:
-Please use mod version and percent translation value if is incompleted translation.
-Ex. 90% (90 lines from 100 text lines )
+If translation is incomplete, please add how many percent is already translated.
+E.g. 90% (90 lines from 100 text lines )
 
 
-# For Gammers
-Download this localisation and next copy only internal folders to /mods/ folder your game.
+# For Players
+Download this localisation files and then copy only internal folders to /mods/ folder inside your game directory.
 
 # Others
-Project is for game: <b>Factorio</b> http://factorio.com
-You will find mods to us translations here: https://mods.factorio.com
+Project is for game <b>Factorio</b> [factorio.com](http://factorio.com)
+You will find mods to our translations here: [mods.factorio.com](https://mods.factorio.com)
